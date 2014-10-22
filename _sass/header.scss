@@ -39,4 +39,10 @@ header {
       display: none;
     }
   }
+
+  @media screen and (max-width: 450px) {
+    li {
+      margin-right: 15px !important;
+    }
+  }
 }
