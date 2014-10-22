@@ -1,0 +1,42 @@
+header {
+  display: none;
+  position: fixed;
+  top: -100px;
+  width: 100%;
+  height: 18px;
+  background: black;
+  padding: 15px 0;
+  text-align: center;
+
+  -webkit-transition: ease 0.7s;
+  -moz-transition: ease 0.7s;
+  -ms-transition: ease 0.7s;
+  -o-transition: ease 0.7s;
+  transition: ease 0.7s;
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  ul {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+
+    li {
+      float: left;
+      margin-right: 20px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    .tech-name {
+      display: none;
+    }
+  }
+}

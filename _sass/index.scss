@@ -1,0 +1,86 @@
+#index {
+  $red: #C83232;
+
+  .avatar {
+    $size: 150px;
+
+    display: block;
+    margin: 0 auto;
+    background: white;
+    width: $size;
+    height: $size;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 100%;
+    padding: 3px;
+    border: black solid 1px;
+  }
+
+  .title {
+    text-align: center;
+    margin-bottom: 40px;
+
+    h1 {
+      margin-bottom: 5px;
+    }
+
+    a {
+      text-decoration: none;
+      color: $red;
+      margin-top: 10px;
+      display: block;
+    }
+  }
+
+  h4 {
+    text-align: center;
+    margin-bottom: 10px;
+    
+    .clickable {
+      color: $red;
+    }
+  }
+
+  hr {
+    margin-bottom: 20px;
+  }
+
+  .skillset {
+    text-align: center;
+
+    .pure-g div {
+      line-height: 20px;
+
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    }
+
+    div {
+      margin-bottom: 20px;
+    }
+
+    i {
+      font-size: 20px;
+      margin-right: 7px;
+    }
+  }
+}
+
+#index {
+  min-height: 100vh;
+}
+
+.tech {
+  padding-top: 50px;
+
+  &:first-child {
+    padding-top: 0;
+  }
+
+  h1 {
+    text-align: center;
+  }
+}
+

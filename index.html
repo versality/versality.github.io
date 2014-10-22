@@ -1,0 +1,93 @@
+---
+layout: default
+---
+<div id="index">
+    <div id="index-content">
+        <img class="avatar" src="static/me.jpg" alt="artyom photo"/>
+
+        <div class="title">
+            <h1>Artyom Pertsovsky</h1>
+            <div>Software Developer with ambitions</div>
+            <a href="#" class="mail-to">Contact</a>
+        </div>
+
+        <h4>
+            <span class="clickable">Clickable</span> skill-set
+        </h4>
+        <hr/>
+
+        <div class="skillset">
+            <div class="pure-g">
+                <div class="pure-u-1-4">
+                    <a data-scroll href="#ruby">
+                        <i class="icon-ruby"></i>
+                        <span class="tech-name">Ruby</span>
+                    </a>
+                </div>
+                <div class="pure-u-1-4">
+                    <a data-scroll href="#js">
+                        <i class="icon-javascript"></i>
+                        <span class="tech-name">JavaScript</span>
+                    </a>
+                </div>
+                <div class="pure-u-1-4">
+                    <a data-scroll href="#css">
+                        <i class="fa fa-css3"></i>
+                        <span class="tech-name">CSS</span>
+                    </a>
+                </div>
+                <div class="pure-u-1-4">
+                    <a data-scroll href="#python">
+                        <i class="icon-python"></i>
+                        <span class="tech-name">Python</span>
+                    </a>
+                </div>
+            </div>
+            <div class="pure-g">
+                <div class="pure-u-1-3">
+                    <a data-scroll href="#db">
+                        <i class="icon-database-alt2"></i>
+                        <span class="tech-name">Databases</span>
+                    </a>
+                </div>
+                <div class="pure-u-1-3">
+                    <a data-scroll href="#vcs">
+                        <i class="fa fa-git"></i>
+                        <span class="tech-name">Version Control System</span>
+                    </a>
+                </div>
+                <div class="pure-u-1-3">
+                    <a data-scroll href="#api">
+                        <i class="fa fa-gears"></i>
+                        <span class="tech-name">APIs</span>
+                    </a>
+                </div>
+            </div>
+            <div class="pure-g">
+                <div class="pure-u-1-2">
+                    <a data-scroll href="#methodologies">
+                        <i class="fa fa-bar-chart"></i>
+                        <span class="tech-name">Methodologies</span>
+                    </a>
+                </div>
+                <div class="pure-u-1-2">
+                    <a data-scroll href="#devops">
+                        <i class="fa fa-magic"></i>
+                        <span class="tech-name">DevOps</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% include techies/ruby.html %}
+{% include techies/js.html %}
+{% include techies/css.html %}
+{% include techies/python.html %}
+{% include techies/db.html %}
+{% include techies/vcs.html %}
+{% include techies/api.html %}
+{% include techies/methodologies.html %}
+{% include techies/devops.html %}
+
