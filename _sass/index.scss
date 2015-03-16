@@ -27,8 +27,22 @@
 
     a {
       text-decoration: none;
+      margin-top: 15px;
+    }
+
+    .social {
       color: $red;
-      margin-top: 10px;
+      display: inline-block;
+      margin-left: 25px;
+      font-size: 35px;
+
+      &:first-of-type {
+        margin-left: 0;
+      }
+    }
+
+    .mail-to {
+      color: $red;
       display: block;
     }
   }
