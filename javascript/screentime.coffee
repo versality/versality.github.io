@@ -2,6 +2,8 @@
 ---
 
 $.screentime
+  googleAnalytics: true
+  ,
   fields: [
     selector: '#api'
     name: 'API'
