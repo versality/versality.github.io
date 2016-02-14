@@ -7,6 +7,7 @@ $ ->
   header = $('header')
   index  = $('#index-content')
   tech   = $('.tech')
+  arrow  = $('div.arrow')
 
   # Update header current position when scrolled past TOP tech
   tech.waypoint () ->
@@ -14,6 +15,7 @@ $ ->
     navHeader.find('a').css('color', 'white')
     navHeader.find('.' + $(this).attr('id')).css('color', '#C83232')
     header.css('top', '0')
+    arrow.fadeOut()
   ,
     offset: 50
 
@@ -28,9 +30,6 @@ $ ->
       return -$(this).height()
 
   # Hide header when reaches top of the page
-  index.waypoint () ->
-    header.css('top', '-100px')
-
   index.waypoint () ->
     header.css('top', '-100px')
   ,
