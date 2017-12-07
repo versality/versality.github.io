@@ -12,3 +12,6 @@ github_username: versality
 
 # Build settings
 markdown: kramdown
+
+plugins:
+ - jekyll-coffeescript
